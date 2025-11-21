@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Time_Lord_Peshin"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="time Lord" MinHeight="800" Height="450" Width="800">
     <Grid>
+        <Frame x:Name="freme" NavigationUIVisibility="Hidden"/>
         
     </Grid>
 </Window>

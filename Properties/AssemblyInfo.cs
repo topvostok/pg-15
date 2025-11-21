@@ -7,12 +7,12 @@ using System.Windows;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набор атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Time_Lord_Peshin")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TimeLord")]
+[assembly: AssemblyDescription("Данное приложение позволяет измерять интервалы времени с точностью до долей секунды")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Time_Lord_Peshin")]
-[assembly: AssemblyCopyright("Copyright ©  2025")]
+[assembly: AssemblyProduct("TimeLord")]
+[assembly: AssemblyCopyright("Пешин Гог,а")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
