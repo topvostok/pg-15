@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Time_Lord_Peshin;
 
 namespace Time_Lord_Peshin
 {
@@ -23,6 +24,17 @@ namespace Time_Lord_Peshin
         public MainWindow()
         {
             InitializeComponent();
+            OpenPages(pages.stopwatch);
+        }
+
+        public enum pages
+        {
+            stopwatch
+        }
+        public void OpenPages(pages _page)
+        {
+            if (_page == pages.stopwatch)
+                freme.Navigate(pages.stopwatch);
         }
     }
 }
