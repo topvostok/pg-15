@@ -32,6 +32,7 @@ namespace Time_Lord_Peshin
             stopwatch
         }
 
+
         public void OpenPages(pages _page)
         {
             if (_page == pages.stopwatch)
