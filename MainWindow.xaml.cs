@@ -29,7 +29,7 @@ namespace Time_Lord_Peshin
 
         public enum pages
         {
-            stopwatch
+            stopwatch 
         }
 
 
